@@ -1,0 +1,6 @@
+@Eventizer.API.Controllers_HostAddress = http://localhost:5056
+
+GET {{Eventizer.API.Controllers_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

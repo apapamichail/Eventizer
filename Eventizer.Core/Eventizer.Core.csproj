@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Constants\CustomerContext\" />
+    <Folder Include="Constants\EventContext\" />
+    <Folder Include="Constants\OrganizerContext\" />
+    <Folder Include="Constants\TicketingContext\" />
+    <Folder Include="Constants\UserContext\" />
+    <Folder Include="CQRS\EventContext\" />
+    <Folder Include="CQRS\OrganizerContext\" />
+    <Folder Include="CQRS\TicketingContext\" />
+    <Folder Include="CQRS\UserContext\" />
+    <Folder Include="Interfaces\TicketingContext\" />
+  </ItemGroup>
+
+</Project>
